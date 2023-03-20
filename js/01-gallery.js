@@ -68,14 +68,12 @@ gallery.addEventListener('click', event => {
     <img src="${previewUrl}" width="800" height="600">
   `);
     instance.show();
-    document.addEventListener("keydown", instansClose);   
     
-    const bigImage = document.querySelector('.basicLightbox')
+    document.addEventListener("keydown", instanceClose);   
         
-    function instansClose({ code }) {
-    
+    function instanceClose({ code }) {
     if (code === "Escape") {
-    bigImage.remove();
+    instance.close();
   }
 }
 
