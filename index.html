@@ -2,15 +2,78 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Homework 7</title>
-    <link rel="stylesheet" href="css/common.css" />
+    <title>Document</title>
+
+    <link href="./CSS/stylesgol.css" rel="stylesheet" type="text/css" />
+
+    <script src="./scripts/main.js"></script>
   </head>
   <body>
-    <ul>
-      <li><a href="01-gallery.html">Image gallery</a></li>
-      <li><a href="02-lightbox.html">SimpleLightbox library</a></li>
-    </ul>
+    <body>
+      <section class="main">
+        <a href="02-lightbox.html">
+          <button class="button galerey" style="vertical-align: middle">
+            <span> <b>Gallery</b> </span>
+          </button></a
+        >
+        <a href="#popap">
+          <button
+            class="button contacts"
+            style="vertical-align: middle"
+            formtarget="popap"
+            type="submit"
+          >
+            <span> Contacts </span>
+          </button></a
+        >
+        <button class="button children" style="vertical-align: middle">
+          <span> <b>Children</b> </span>
+        </button>
+        <button class="button document" style="vertical-align: middle">
+          <span> <b>Document</b> </span>
+        </button>
+      </section>
+      <div id="popap" class="popap">
+        <div class="popap_body">
+          <div class="popap_content">
+            <a href="#" class="popap_close">X</a>
+            <div class="contacts-conteiner">
+              <h2 class="sidebar-title">Sergey</h2>
+              <p class="CONTACTS-item">
+                <span class="contacts-tipe">C: </span>
+                <a href="tel:+380508370347" class="contacts-number"
+                  >+38 050 837 03 47</a
+                >
+              </p>
+              <p class="CONTACTS-item">
+                <span class="contacts-tipe">E: </span>
+                <a href="mailto:nosovsa@ukr.net" class="contacts-email"
+                  >nosovsa@ukr.net</a
+                >
+              </p>
+              <h2 class="sidebar-title">Natalia</h2>
+              <p class="CONTACTS-item">
+                <span class="contacts-tipe">C: </span>
+                <a href="tel:+380509270821" class="contacts-number"
+                  >+38 050 927 08 21</a
+                >
+              </p>
+              <p class="CONTACTS-item">
+                <span class="contacts-tipe">E: </span>
+                <a href="mailto:nosovsa@ukr.net" class="contacts-email"
+                  >nosovsa@ukr.net</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
   </body>
 </html>
+
+      <li><a href="01-gallery.html">Image gallery</a></li>
+      <li><a href="02-lightbox.html">SimpleLightbox library</a></li>
+

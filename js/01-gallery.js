@@ -73,7 +73,8 @@ gallery.addEventListener('click', event => {
         
     function instanceClose({ code }) {
     if (code === "Escape") {
-    instance.close();
+      instance.close();
+      document.removeEventListener("keydown", instanceClose);
   }
 }
 
